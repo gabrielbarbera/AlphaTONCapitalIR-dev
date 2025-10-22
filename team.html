@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team - AlphaTON Capital Corp.</title>
+    <meta name="description" content="Meet the executive team and leadership of AlphaTON Capital Corp.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    
+    <!-- AlphaTON Unified CSS -->
+    <link rel="stylesheet" href="assets/css/unified.css">
+    
+    <!-- Preload critical fonts -->
+    <link rel="preload" href="assets/fonts/RedHatDisplay-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin>
+</head>
+<body class="bg-alphaton-dark text-white font-redhat">
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-alphaton-primary text-white px-4 py-2 rounded-md z-50">
+        Skip to main content
+    </a>
+    
+    <!-- Header Component -->
+    <nav class="bg-black/20 backdrop-blur-lg border-b border-white/10 fixed top-0 left-0 right-0 z-50" role="navigation" aria-label="Main navigation">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+            <!-- Logo -->
+            <div class="flex-shrink-0">
+                <a href="index.html" class="flex items-center group">
+                    <img src="assets/img/Primary Logo Horizontal White.svg" alt="AlphaTON Capital" class="h-8 w-auto transition-transform duration-200 group-hover:scale-105">
+                </a>
+            </div>
+
+            <!-- Desktop Navigation -->
+            <div class="hidden md:block">
+                <div class="ml-3 flex items-center space-x-3">
+                    <a href="index.html" class="nav-link text-white hover:text-alphaton-primary px-1 py-0.5 text-sm font-medium transition-colors duration-200">
+                        Home
+                    </a>
+                    <a href="news.html" class="nav-link text-gray-300 hover:text-alphaton-primary px-2 py-0.5 text-sm font-medium transition-colors duration-200">
+                        News
+                    </a>
+                    <a href="https://www.sec.gov/edgar/browse/?CIK=1095435&owner=exclude" target="_blank" rel="noopener noreferrer" class="nav-link text-gray-300 hover:text-alphaton-primary px-2 py-0.5 text-sm font-medium transition-colors duration-200">
+                        SEC Fillings
+                    </a>
+                    <a href="governance.html" class="nav-link text-gray-300 hover:text-alphaton-primary px-2 py-0.5 text-sm font-medium transition-colors duration-200">
+                        Corporate Governance
+                    </a>
+                    <a href="team.html" class="nav-link text-gray-300 hover:text-alphaton-primary px-2 py-0.5 text-sm font-medium transition-colors duration-200">
+                        Team
+                    </a>
+                    <a href="faqs.html" class="nav-link text-gray-300 hover:text-alphaton-primary px-2 py-0.5 text-sm font-medium transition-colors duration-200">
+                        FAQs
+                    </a>
+                    <a href="contact.html" class="nav-link text-gray-300 hover:text-alphaton-primary px-2 py-0.5 text-sm font-medium transition-colors duration-200">
+                        Contact
+                    </a>
+                </div>
+            </div>
+
+            <!-- Mobile menu button -->
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white transition-colors duration-200" aria-expanded="false" aria-label="Toggle main menu">
+                    <!-- Hamburger icon -->
+                    <svg id="menu-icon" class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                    <!-- Close icon -->
+                    <svg id="close-icon" class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div id="mobile-menu" class="md:hidden hidden">
+        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-black/30 backdrop-blur-lg border-t border-white/10">
+            <a href="index.html" class="nav-link text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700 hover:text-alphaton-primary transition-colors duration-200">
+                Home
+            </a>
+            <a href="news.html" class="nav-link text-gray-300 block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700 hover:text-alphaton-primary transition-colors duration-200">
+                News
+            </a>
+            <a href="https://www.sec.gov/edgar/browse/?CIK=1095435&owner=exclude" target="_blank" rel="noopener noreferrer" class="nav-link text-gray-300 block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700 hover:text-alphaton-primary transition-colors duration-200">
+                SEC Fillings
+            </a>
+            <a href="governance.html" class="nav-link text-gray-300 block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700 hover:text-alphaton-primary transition-colors duration-200">
+                Corporate Governance
+            </a>
+            <a href="team.html" class="nav-link text-gray-300 block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700 hover:text-alphaton-primary transition-colors duration-200">
+                Team
+            </a>
+            <a href="faqs.html" class="nav-link text-gray-300 block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700 hover:text-alphaton-primary transition-colors duration-200">
+                FAQs
+            </a>
+            <a href="contact.html" class="nav-link text-gray-300 block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700 hover:text-alphaton-primary transition-colors duration-200">
+                Contact
+            </a>
+        </div>
+    </div>
+</nav>
+
+    
+    <!-- Main Content -->
+    <main id="main-content" class="min-h-screen">
+        <!-- Page Header -->
+        <section class="bg-gradient-to-br from-alphaton-dark via-alphaton-gray to-alphaton-dark py-16 pt-32">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">
+                        <span class="bg-gradient-to-r from-alphaton-primary to-purple-500 bg-clip-text text-transparent">
+                            Team
+                        </span>
+                    </h1>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Meet the executive team and leadership of AlphaTON Capital Corp.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Content -->
+        <section class="py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <!-- Leadership Section -->
+                <div class="mb-16">
+                    <h2 class="text-3xl font-bold text-white mb-8 text-center">Leadership</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <!-- Brittany Kaiser -->
+                        <div class="bg-white/5 backdrop-blur-sm rounded-xl p-8 border border-white/10 hover:border-alphaton-primary/50 transition-all duration-200">
+                            <div class="text-center">
+                                <div class="w-24 h-24 rounded-full mx-auto mb-4 overflow-hidden border-2 border-alphaton-primary/30">
+                                    <img src="assets/img/team/Brittany Kaiser.jpg" alt="Brittany Kaiser" class="w-full h-full object-cover">
+                                </div>
+                                <h3 class="text-xl font-bold text-white mb-2">Brittany Kaiser</h3>
+                                <p class="text-alphaton-primary font-semibold mb-4">Chief Executive Officer, Board Member</p>
+                                <p class="text-gray-300 text-sm">
+                                    Policy and technology strategist with experience advising governments and enterprises on regulatory innovation.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Enzo Villani -->
+                        <div class="bg-white/5 backdrop-blur-sm rounded-xl p-8 border border-white/10 hover:border-alphaton-primary/50 transition-all duration-200">
+                            <div class="text-center">
+                                <div class="w-24 h-24 rounded-full mx-auto mb-4 overflow-hidden border-2 border-alphaton-primary/30">
+                                    <img src="assets/img/team/Enzo Villani.png" alt="Enzo Villani" class="w-full h-full object-cover">
+                                </div>
+                                <h3 class="text-xl font-bold text-white mb-2">Enzo Villani</h3>
+                                <p class="text-alphaton-primary font-semibold mb-4">Chief Investment Officer, Board Member</p>
+                                <p class="text-gray-300 text-sm">
+                                    Founder of Alpha Transform Holdings. Veteran strategist bridging public markets and digital assets.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Yury Mitin -->
+                        <div class="bg-white/5 backdrop-blur-sm rounded-xl p-8 border border-white/10 hover:border-alphaton-primary/50 transition-all duration-200">
+                            <div class="text-center">
+                                <div class="w-24 h-24 rounded-full mx-auto mb-4 overflow-hidden border-2 border-alphaton-primary/30">
+                                    <img src="assets/img/team/Yury Mitin.png" alt="Yury Mitin" class="w-full h-full object-cover">
+                                </div>
+                                <h3 class="text-xl font-bold text-white mb-2">Yury Mitin</h3>
+                                <p class="text-alphaton-primary font-semibold mb-4">Partner, CBDO</p>
+                                <p class="text-gray-300 text-sm">
+                                    Managing Partner at RSV Capital. Specialist in late-stage growth investment strategies.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Board of Directors Section -->
+                <div class="bg-white/5 backdrop-blur-sm rounded-xl p-8 border border-white/10">
+                    <h2 class="text-3xl font-bold text-white mb-6 text-center">Board of Directors</h2>
+                    <p class="text-gray-300 text-center mb-8 max-w-3xl mx-auto">
+                        AlphaTON Capital's Board combines <strong class="text-alphaton-primary">institutional markets experience</strong>, <strong class="text-alphaton-primary">crypto infrastructure expertise</strong>, and <strong class="text-alphaton-primary">regulatory perspective</strong>.
+                    </p>
+                    
+                    <div class="bg-white/5 rounded-lg p-6 border border-white/10 mb-8">
+                        <p class="text-gray-400 text-sm text-center">
+                            Independent director profiles below are placeholders pending final appointments.
+                        </p>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <div class="bg-white/5 rounded-lg p-6 border border-white/10">
+                            <h3 class="text-lg font-semibold text-white mb-2">Daniela Rowe</h3>
+                            <p class="text-alphaton-primary font-medium mb-2">Chair of the Board</p>
+                        </div>
+                        <div class="bg-white/5 rounded-lg p-6 border border-white/10">
+                            <h3 class="text-lg font-semibold text-white mb-2">Maya Ortega</h3>
+                            <p class="text-alphaton-primary font-medium mb-2">Independent Director</p>
+                        </div>
+                        <div class="bg-white/5 rounded-lg p-6 border border-white/10">
+                            <h3 class="text-lg font-semibold text-white mb-2">Liam Park</h3>
+                            <p class="text-alphaton-primary font-medium mb-2">Independent Director</p>
+                        </div>
+                        <div class="bg-white/5 rounded-lg p-6 border border-white/10">
+                            <h3 class="text-lg font-semibold text-white mb-2">Dr. Anika Shah</h3>
+                            <p class="text-alphaton-primary font-medium mb-2">Independent Director</p>
+                        </div>
+                        <div class="bg-white/5 rounded-lg p-6 border border-white/10">
+                            <h3 class="text-lg font-semibold text-white mb-2">Thomas Gray</h3>
+                            <p class="text-alphaton-primary font-medium mb-2">Independent Director, Audit Chair</p>
+                        </div>
+                        <div class="bg-white/5 rounded-lg p-6 border border-white/10">
+                            <h3 class="text-lg font-semibold text-white mb-2">Hassan El-Masri</h3>
+                            <p class="text-alphaton-primary font-medium mb-2">Independent Director, Tech & Security Chair</p>
+                        </div>
+                        <div class="bg-white/5 rounded-lg p-6 border border-white/10">
+                            <h3 class="text-lg font-semibold text-white mb-2">Sofia Petrov</h3>
+                            <p class="text-alphaton-primary font-medium mb-2">Independent Director</p>
+                        </div>
+                        <div class="bg-white/5 rounded-lg p-6 border border-white/10">
+                            <h3 class="text-lg font-semibold text-white mb-2">Carlos Mendes</h3>
+                            <p class="text-alphaton-primary font-medium mb-2">Independent Director</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer Component -->
+    <footer class="bg-alphaton-dark border-t border-white/10 py-20" id="newsletter">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Main Footer Content -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
+            <!-- Newsletter Section -->
+            <div class="space-y-6 text-center">
+                <div>
+                    <h4 class="text-2xl font-bold text-white mb-4">Newsletter</h4>
+                    <p class="text-gray-300 text-lg leading-relaxed">Sign up to receive AlphaTON Capital news, press releases, and SEC filing alerts.</p>
+                </div>
+                <form class="newsletter-form space-y-5">
+                    <div>
+                        <label for="newsletter-email" class="sr-only">Email Address</label>
+                        <input type="email" id="newsletter-email" name="email" class="w-full px-5 py-4 bg-white/10 border border-white/20 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-alphaton-primary focus:border-transparent transition-all duration-200 text-lg text-center" placeholder="Enter your email" required>
+                    </div>
+                    <button type="submit" class="w-full bg-alphaton-primary hover:bg-blue-600 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-200 text-lg hover:transform hover:scale-105">
+                        Subscribe
+                    </button>
+                </form>
+                <p class="text-sm text-gray-400 leading-relaxed">By subscribing, you agree to receive investor communications from AlphaTON Capital. You can unsubscribe at any time.</p>
+            </div>
+            
+            <!-- Investor Relations Section -->
+            <div class="space-y-6 text-center">
+                <div>
+                    <h4 class="text-2xl font-bold text-white mb-4">Investor Relations</h4>
+                </div>
+                <div class="space-y-4">
+                    <p class="text-white font-semibold text-lg">AlphaTON Capital Corp.</p>
+                    <div class="space-y-2">
+                        <p class="text-gray-300">c/o Investor Relations</p>
+                        <p class="text-gray-300">8 The Green, Suite B</p>
+                        <p class="text-gray-300">Dover, DE 19901, USA</p>
+                    </div>
+                    <p class="text-gray-300">
+                        <a href="mailto:ir@alphatoncapital.com" class="text-alphaton-primary hover:text-blue-400 transition-colors duration-200 text-lg font-medium">
+                            ir@alphatoncapital.com
+                        </a>
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Quick Links Section -->
+            <div class="space-y-6 text-center">
+                <div>
+                    <h4 class="text-2xl font-bold text-white mb-4">Quick Links</h4>
+                </div>
+                <div class="space-y-3">
+                    <a href="contact.html" class="block text-gray-300 hover:text-alphaton-primary transition-colors duration-200 text-lg py-1">Contact IR</a>
+                    <a href="https://www.sec.gov/edgar/browse/?CIK=1095435&owner=exclude" target="_blank" rel="noopener noreferrer" class="block text-gray-300 hover:text-alphaton-primary transition-colors duration-200 text-lg py-1">SEC Filings</a>
+                    <a href="assets/pdf/AlphaTON Capital Branding Guide.pdf" target="_blank" rel="noopener noreferrer" class="block text-gray-300 hover:text-alphaton-primary transition-colors duration-200 text-lg py-1">Press Kit</a>
+                    <a href="privacy.html" class="block text-gray-300 hover:text-alphaton-primary transition-colors duration-200 text-lg py-1">Privacy Policy</a>
+                    <a href="terms.html" class="block text-gray-300 hover:text-alphaton-primary transition-colors duration-200 text-lg py-1">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer Bottom -->
+        <div class="border-t border-white/10 pt-12">
+            <div class="flex flex-col lg:flex-row justify-between items-center space-y-6 lg:space-y-0">
+                <div class="flex items-center space-x-4">
+                    <img src="assets/img/Wordmark White.svg" alt="AlphaTON Capital" class="h-8 w-auto">
+                    <p class="text-gray-400 text-lg">&copy; 2025 AlphaTON Capital Corp. All rights reserved.</p>
+                </div>
+                
+                <div class="flex space-x-8">
+                    <a href="https://x.com/AlphaTONCapital" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-alphaton-primary transition-all duration-200 hover:scale-110">
+                        <span class="sr-only">X (Twitter)</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-7 w-7">
+                            <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+                            <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+                        </svg>
+                    </a>
+                    <a href="https://t.me/AlphaTONCapital" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-alphaton-primary transition-all duration-200 hover:scale-110">
+                        <span class="sr-only">Telegram</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-7 w-7">
+                            <path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4" />
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/company/alphaton-capital/" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-alphaton-primary transition-all duration-200 hover:scale-110">
+                        <span class="sr-only">LinkedIn</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-7 w-7">
+                            <path d="M8 11v5" />
+                            <path d="M8 8v.01" />
+                            <path d="M12 16v-5" />
+                            <path d="M16 16v-3a2 2 0 1 0 -4 0" />
+                            <path d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- Main JavaScript -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
